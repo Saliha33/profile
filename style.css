@@ -1,0 +1,104 @@
+body {
+  background-color: #F0EBCE;
+  font-family: Dancing;
+  font-size: 18px;
+  color: #001253;
+  line-height: 1,6;
+}
+
+h1 {
+  color: #395144;
+  font-family: Dancing+Script;
+  font-size: 30px;
+  line-height: 2;
+}
+
+h2 {
+  color: #395144;
+  font-family: Dancing+Script;
+  font-size: 22px;
+  line-height: 2;
+}
+
+.link {
+  color: #404258;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #F0EBCE;
+  padding: 10px;
+}
+
+#introduction-text {
+  padding-bottom: 30px;
+}
+
+a {
+  color: #404258;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: #829460;
+}
+
+.link:hover {
+  background-color: #404258;
+  color: #F0EBCE;
+}
+
+
+.card {
+  border: 1px solid white;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #FFE1E1;
+  margin: 20;
+  padding: 50px;
+  padding-top: 10px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  Pour un écran < 960px, cette classe CSS s'applique
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  Pour un écran < 720px, cette classe CSS s'applique
+  .container {
+    width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+  Pour un écran < 540px, cette classe CSS s'applique
+  .container {
+    width: 300px;
+    }
+}
